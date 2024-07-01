@@ -1,6 +1,18 @@
+body{
+    margin: 0px;
+    font-family: 'poppins' , 'sans-serif';
+}
+
+
 h1{
     font-size: 50px;
   font-family: "Playwrite ES Deco", cursive;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orangered;
@@ -13,4 +25,51 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    margin-left: 60px;
+    margin-top: 45px;
+    border-radius: 5px;
+    color: azure;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    color: orange;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 65%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+border-left: 7px solid rgb(248, 181, 57);
+
+}
+#full-stack2{
+    border-left: 7px solid rgb(244, 104, 53);
+}
+footer p{
+    text-align: center;
+    
 }
